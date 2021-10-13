@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타이포그래픽 속성 - font</title>
+
+<!-- 
+스타일 지정 방식
+1.인라인 방식
+2.내부 스타일 시트
+3.외부 스타일 시트 -->
+
+
+<style>
+
+p.a{font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+p.b{font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+line-height: 3;
+font-weight: bold;
+}
+
+p.c{font-variant: small-caps;}
+
+
+/* font-style , font-variant , font-weight , 
+font-size, line-height , font-family */
+p.d{
+font: italic small-caps bold 12px/30px Georgia, serif;
+}
+
+</style>
+
+
+</head>
+<body>
+    
+<h1>Lorem Ipsum</h1>
+
+<p class="a">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+<p class="b">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<!-- alt shift 방향키 아래 -->
+<p class="c">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<p class="d">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+
+</body>
+</html>

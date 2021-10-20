@@ -35,7 +35,7 @@ header .menuOpen{
     line-height: 100px;
 }
 
-header.menuOpen span{
+header .menuOpen span{
     display: block;
     width: 100%;
     height: 1px;
@@ -45,5 +45,5 @@ header.menuOpen span{
     left:0;
 }
 
-header.menuOpen span.mid{ top:50%}
-header.menuOpen span.bot{ top:100%}
+header .menuOpen span.mid{ top:50%}
+header .menuOpen span.bot{ top:100%}
